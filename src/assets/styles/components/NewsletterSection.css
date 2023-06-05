@@ -1,0 +1,37 @@
+.newsletter {
+    text-align: center;
+    background: #D8D9DD;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.newsletter h2 {
+    margin: 0;
+}
+
+.newsletter input {
+    font-size: 24px;
+    padding: 11px 20px;
+    width: 320px;
+    background: transparent;
+    border: solid 1px #060505;
+    border-radius: 3px;
+    margin-top: 20px;
+    outline: none !important;
+    transition: all .2s;
+}
+
+.newsletter button {
+    background: #060505;
+    border: none;
+    color: #d8d9dd;
+    font-size: 24px;
+    padding: 12px 20px;
+    border-radius: 3px;
+    margin-left: -5px;
+    cursor: pointer;
+}

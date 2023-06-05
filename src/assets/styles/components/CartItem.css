@@ -1,0 +1,41 @@
+.cart-item {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.cart-item, .column-1, .column-2 {
+    display: flex;
+    align-items: center;
+}
+
+.column-1 {
+    width: 64%;
+    text-align: left;
+}
+
+.column-1 h3 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+}
+
+.column-1 img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border: 1px solid #fff000;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.column-1 > div {
+    cursor: pointer;
+}
+
+.column-2 {
+    width: 36%;
+    justify-content: space-between;
+}
+
+.column-2 > span {
+    font-size: 18px;
+}

@@ -1,0 +1,40 @@
+.blog-container {
+    padding-top: 100px;
+}
+
+.blog-container h2 {
+    margin: 60px;
+    text-align: center;
+}
+
+.articles-settings {
+    padding: 0 5%;
+    border-top: 2px solid #a7adb749;
+    border-bottom: 2px solid #a7adb749;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles-settings > span {
+    font-style: italic;
+}
+
+.articles-settings select {
+    padding: 16px 5px 16px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+    margin-top: 60px !important;
+    padding-bottom: 145px;
+}
+
+.blog-container > .pagination {
+    width: 90%;
+}

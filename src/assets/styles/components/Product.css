@@ -1,0 +1,31 @@
+.product-page {
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product-page > .images > img {
+    width: 550px;
+    height: 550px;
+    object-fit: contain;
+}
+
+.product-page > .images {
+    display: flex;
+    justify-content: center;
+}
+
+.product-page > .asides-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.product-page > .asides-info > .trust-badge {
+    display: flex;
+    justify-content: center;
+}
+
+.product-page > .asides-info > .trust-badge > img {
+    width: 500px;
+}

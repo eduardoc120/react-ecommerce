@@ -1,0 +1,14 @@
+.about-us {
+    padding: 110px 25% 0 25%;
+    text-align: justify;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin: 60px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin: 1.5em 0 1.5em 0;
+}

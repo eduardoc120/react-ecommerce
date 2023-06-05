@@ -1,0 +1,96 @@
+.shipping-info-container {
+    padding-top: 100px;
+    display: flex;
+    padding: 100px 5% 0 5%;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.shipping-info-container+footer {
+    margin-top: 0;
+}
+
+.shipping-info-container > .main {
+    width: 52%;
+    padding-right: 6%;
+    padding-top: 4em;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.shipping-info-container > .main ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shipping-info-container > .main ol > li {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    font-size: .9em;
+}
+
+.shipping-info-container > .main ol > li.prev {
+    color: #209a9a;
+}
+
+.shipping-info-container > .main ol > li.actual {
+    font-weight: 500;
+}
+
+.shipping-info-container > .main ol > li:not(:last-child)::after {
+    content: "";
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    transform: rotate(45deg);
+    width: 7px;
+    display: inline-block;
+    height: 7px;
+    margin-left: 8px;
+}
+
+.shipping-info-container > .main ol > li > a {
+    text-decoration: none;
+    color: unset;
+}
+
+.shipping-info-container > .main > form h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.shipping-info-container > .main > form input[type=text],  .shipping-info-container > .main > form input[type=email] {
+    display: block;
+    background-color: white;
+    color: #333333;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 0.9em 0.7em;
+    width: 100%;
+    margin-bottom: 1.5em;
+    outline: none;
+}
+
+.shipping-info-container > .main > form input[type=checkbox] {
+    margin-right: .7em;
+    margin-bottom: 1em;
+}
+
+.shipping-info-container > .main > form > button {
+    padding: 12px 28px;
+    color: #fff;
+    background-color: #209a9a;
+    border: 2px solid #209a9a;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: .5em 2rem 0 0;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shipping-info-container > .main > form > a {
+    text-decoration: none;
+    color: #209a9a;
+}

@@ -1,0 +1,106 @@
+.checkout-sidebar {
+    width: 38%;
+    padding-left: 4%;
+    float: right;
+    padding-top: 4em;
+    position: relative;
+}
+
+.checkout-sidebar::after {
+    content: "";
+    display: block;
+    width: 129%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fafafa;
+    z-index: -1;
+    box-shadow: 1px 0 0 #e1e1e1 inset;
+}
+
+.checkout-sidebar > .carrito-items {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.checkout-sidebar > .carrito-items img {
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    object-fit: contain;
+}
+
+.checkout-sidebar > .carrito-items > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.checkout-sidebar > .carrito-items > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-sidebar > .carrito-items > div .image {
+    position: relative;
+    display: inline-block;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.checkout-sidebar > .carrito-items > div .image > span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 0.85em;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #888;
+    right: -5px;
+    top: -5px;
+}
+
+.checkout-sidebar > .carrito-items > div .title {
+    font-weight: 500;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.checkout-sidebar > .carrito-items > div .variants {
+    font-size: .9em;
+}
+
+.checkout-sidebar > .carrito-items > div > span {
+    font-weight: 500;
+}
+
+.checkout-sidebar > .subtotal, .checkout-sidebar > .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.checkout-sidebar .price {
+    font-weight: 500;
+}
+
+.checkout-sidebar > .total > span:not(:last-child) {
+    font-weight: 500;
+}
+
+.checkout-sidebar > .total .price {
+    font-size: 1.5em;
+    margin-left: .5em;
+}
+
+.checkout-sidebar > .total > span:last-child {
+    display: flex;
+    align-items: center;
+}

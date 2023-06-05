@@ -1,0 +1,5 @@
+.product-carousel-item > img {
+    width: 550px;
+    height: 550px;
+    object-fit: contain;
+}

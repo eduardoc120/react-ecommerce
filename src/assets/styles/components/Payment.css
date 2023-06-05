@@ -1,0 +1,67 @@
+.payment-container {
+    padding-top: 100px;
+    display: flex;
+    padding: 100px 5% 0 5%;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.payment-container+footer {
+    margin-top: 0;
+}
+
+.payment-container > .main {
+    width: 52%;
+    padding-right: 6%;
+    padding-top: 4em;
+    float: left;
+    padding-bottom: 200px;
+    min-height: 53vh;
+}
+
+.payment-container > .main ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+
+.payment-container > .main ol > li {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    font-size: .9em;
+}
+
+.payment-container > .main ol > li.prev {
+    color: #209a9a;
+}
+
+.payment-container > .main ol > li.actual {
+    font-weight: 500;
+}
+
+.payment-container > .main ol > li:not(:last-child)::after {
+    content: "";
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    transform: rotate(45deg);
+    width: 7px;
+    display: inline-block;
+    height: 7px;
+    margin-left: 8px;
+}
+
+.payment-container > .main ol > li > a {
+    text-decoration: none;
+    color: unset;
+}
+
+.payment-container h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: .3em;
+}
+
+.payment-container .Payment-button {
+    margin-top: 2.5em;
+}

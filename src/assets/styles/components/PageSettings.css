@@ -1,0 +1,53 @@
+.page-settings-container {
+    display: flex;
+    position: relative;
+}
+
+.currency {
+    background: transparent;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 18px;
+    display: flex;
+    cursor: pointer;
+    margin: 0 0 0 20px;
+    border: 1px solid #fff;
+}
+
+.arrow-down {
+    height: 10px;
+    width: 10px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(45deg);
+    margin-left: 15px;
+    position: relative;
+    bottom: -1px;
+}
+
+.currency-settings {
+    position: absolute;
+    list-style: none;
+    padding: 7px 0px;
+    font-size: 18px;
+    bottom: 36px;
+    background: #fff;
+    color: #060505;
+    margin: 0;
+    transition: all .5s;
+    right: 29px;
+}
+
+.currency-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.currency-selected, .currency-item:hover {
+    text-decoration: underline;
+}

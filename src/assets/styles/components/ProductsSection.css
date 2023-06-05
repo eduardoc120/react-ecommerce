@@ -1,0 +1,15 @@
+.products-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products-section h2 {
+    margin: 60px 0px 0px 0px;
+}
+
+.products-container {
+    margin: 70px 0px 130px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+}

@@ -1,0 +1,28 @@
+.qty-selector input {
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #b8b8b8;
+    font-size: 12px;
+    width: 65px;
+    color: #4f4f4f;
+    background: 0 0;
+    text-align: center;
+    margin-right: 10px;
+    outline: none;
+}
+
+.qty-selector button {
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #b8b8b8;
+    font-size: 12px;
+    width: 30px;
+    color: #4f4f4f;
+    margin-right: 10px;
+    background: 0 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,110 @@
+.product-carousel-container {
+    height: fit-content;
+    width: 550px;
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.product-carousel-container > .carousel-navigation {
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-carousel-container > .carousel-navigation .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.product-carousel-container > .carousel-navigation .dots > li {
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+    display: inline-block;
+    background: #b8b8b8;
+    border-radius: 50%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.product-carousel-container > .thumnail-navigation {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.product-carousel-container > .thumnail-navigation > li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.product-carousel-container > .thumnail-navigation > li > img {
+    width: 100px;
+    object-fit: contain;
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+li.product-navigation-btn.active {
+    background: #209a9a !important;
+}
+
+img.product-navigation-btn.active {
+    border: 1px solid #209a9a !important;
+}
+
+.product-carousel-items {
+    width: 10000px;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0px;
+    cursor: grab;
+}
+
+.product-carousel-items.transition {
+    transition: all 0.4s ease-in-out;
+}
+
+.product-carousel-button {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.product-carousel-button::after {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 54%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(-50%, -50%) rotate(135deg);
+    transition: all .2s;
+}
+
+.product-carousel-button:hover::after {
+    content: " ";
+    border-right: 2px solid #209a9a;
+    border-bottom: 2px solid #209a9a;
+}
+
+
+.product-carousel-button.next-button::after {
+    left: 47%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

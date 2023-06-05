@@ -1,0 +1,10 @@
+.carousel-item {
+    width: calc(1232px / 3);
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.carousel-item img {
+    width: 100%;
+}
